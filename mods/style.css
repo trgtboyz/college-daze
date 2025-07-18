@@ -1,0 +1,105 @@
+.variable-text {
+  font-size: 13px;
+  user-select: none;
+  margin-bottom: 10px;
+}
+.variable-text br {
+  display: none;
+}
+body[data-tags~='no-tray'] #ui-bar-tray {
+  visibility: visible;
+}
+img[src*='filler'] {
+  display: none;
+}
+#passages > div:first-child {
+  margin: auto;
+}
+.use-flexbox {
+  display: flex;
+}
+audio,
+canvas,
+progress,
+video {
+  max-width: 400px;
+}
+.relation-change {
+  color: hotpink;
+}
+.special-change {
+  color: gold;
+}
+.positive-change {
+  color: #49d049;
+}
+.negative-change {
+  color: #f44343;
+}
+.choice-bubble {
+  padding: 15px;
+  border-radius: 10px;
+  background: #3c3b3b;
+  font-style: normal;
+}
+.fix-flex-direction {
+  flex-direction: column;
+}
+.fix-minor-chars {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.fix-minor-char-bubble {
+  width: max-content;
+  margin-bottom: 20px;
+}
+.botnet-popup {
+  position: fixed;
+  z-index: 100;
+  background-color: #1d1c19;
+  color: #dacbb4;
+  border: 3px solid;
+  padding: 30px;
+  width: 30vw;
+  height: 60vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  user-select: none;
+}
+.popup-text {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #d9ae79;
+}
+#botnet-cancel-btn {
+  border: 2px solid;
+  width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#botnet-cancel-btn:hover {
+  cursor: pointer;
+  color: #f0dfc4;
+}
+.botnet-checkpoint {
+  margin-bottom: 20px;
+  background-color: #2b2925;
+  padding: 5px;
+  overflow: hidden;
+}
+.botnet-checkpoint:hover {
+  cursor: pointer;
+  color: #f0dfc4;
+}
+.link-visited {
+  color: #686868;
+}
+.passage table td {
+  display: block;
+}
